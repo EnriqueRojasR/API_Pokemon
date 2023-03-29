@@ -3,3 +3,4 @@ pymongo==3.12.0
 gunicorn==20.1.0
 requests==2.26.0
 pymongo[srv]
+pip=23.0.1
