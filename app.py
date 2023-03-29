@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 # Configuración de la conexión a la base de datos MongoDB
 
-client = MongoClient("MONGO_URI")
+client = MongoClient("mongodb+srv://User:user123@apipokemon.zlp2gxc.mongodb.net/?retryWrites=true&w=majority")
 db = client.pokedex
 collection = db.pokemons
 
