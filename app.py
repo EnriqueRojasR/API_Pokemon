@@ -11,6 +11,10 @@ client = MongoClient("MONGO_URI")
 db = client.pokedex
 collection = db.pokemons
 
+# Definimos la ruta de inicio
+@app.route('/', methods=['GET'])
+def home():
+    return jsonify({'message': 'Welcome to the Pokemon API!'})
 
 
 
